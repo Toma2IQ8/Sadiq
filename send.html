@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send Me a Message</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      color: #800080;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #800080;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #a020f0;
+    }
+    a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #800080;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>Text Me a Message</h2>
+  <p>This is a beta version, so you can't really send a message.</p>
+  <hr>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <br>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    <br>
+    <button type="submit">Send</button>
+  </form>
+  <hr>
+  <a href="index.html">Home Page</a><br>
+  <a href="accounts.html">My Accounts</a><br>
+  <a href="info.html">My Info</a>
+</body>
+</html>
